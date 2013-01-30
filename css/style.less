@@ -1,4 +1,5 @@
 @import "../vendor/twitter/bootstrap/twitter/bootstrap/less/bootstrap.less";
+@import "../vendor/twitter/bootstrap/twitter/bootstrap/less/responsive.less";
 
 body {
     background: #272727;
@@ -33,8 +34,9 @@ section#contactDetails {
     color: #c8c8c8;
     font-family: 'Satisfy', cursive;
     font-size: 30px;
-    margin: 100px 0;
+    margin: 80px auto;
     text-align: center;
+    width: 300px;
 
     a {
         color: #c8c8c8;
@@ -48,7 +50,38 @@ section#contactDetails {
 }
 
 section#blurb {
-    margin: auto;
+    margin: 0 auto 50px auto;
     max-width: 560px;
     text-align: center;
+}
+
+@media (max-width: 767px) {
+
+    body {
+        padding: 0;
+    }
+
+    div#cow {
+        background-position: -630px -100px;
+
+        &:hover {
+            background-position: -630px -120px;
+        }
+    }
+
+    section#blurb {
+        width: auto;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    div#cow {
+        background-position: -750px -100px;
+
+        &:hover {
+            background-position: -750px -120px;
+        }
+    }
 }
