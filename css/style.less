@@ -1,0 +1,54 @@
+@import "../vendor/twitter/bootstrap/twitter/bootstrap/less/bootstrap.less";
+
+body {
+    background: #272727;
+    color: #8d8d8d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#cow {
+    .transition(all .5s);
+    background: #ffffff url(../img/cow.png) center -100px no-repeat;
+    height: 100px;
+
+    &:hover {
+        background-position: center -120px;
+        height: 200px;
+    }
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.muted {
+    color: #5a5a5a;
+    font-size: 12px;
+}
+
+section#contactDetails {
+    .rotate(-3deg);
+    color: #c8c8c8;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    margin: 100px 0;
+    text-align: center;
+
+    a {
+        color: #c8c8c8;
+    }
+
+    .phone {
+        .rotate(1deg);
+        font-size: 33px;
+        margin: 20px 0 0 30px;
+    }
+}
+
+section#blurb {
+    margin: auto;
+    max-width: 560px;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "twitter/bootstrap": "2.2.2"
+    }
+}
