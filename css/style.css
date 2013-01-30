@@ -1027,6 +1027,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 div#cow{-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;background:#ffffff url(../img/cow.png) center -100px no-repeat;height:100px;}div#cow:hover{background-position:center -120px;height:200px;}
 #logo{display:block;margin:auto;margin-top:-25px;}
 .muted{color:#5a5a5a;font-size:12px;}
+.chromeframe{background:#f89406;color:#000000;margin:0;padding:10px;text-align:center;}.chromeframe a{color:#000000;text-decoration:underline;}
 section#contactDetails{-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);-ms-transform:rotate(-3deg);-o-transform:rotate(-3deg);transform:rotate(-3deg);color:#c8c8c8;font-family:'Satisfy',cursive;font-size:30px;margin:80px auto;text-align:center;width:300px;}section#contactDetails a{color:#c8c8c8;}
 section#contactDetails .phone{-webkit-transform:rotate(1deg);-moz-transform:rotate(1deg);-ms-transform:rotate(1deg);-o-transform:rotate(1deg);transform:rotate(1deg);font-size:33px;margin:20px 0 0 30px;}
 section#blurb{margin:0 auto 50px auto;max-width:560px;text-align:center;}
