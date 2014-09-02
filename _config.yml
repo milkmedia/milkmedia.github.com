@@ -1,2 +1,3 @@
 safe: true
 destination: _site
+exclude: ['bower_components', 'node_modules', 'less', 'gulpfile.js', 'package.json']
